@@ -1,16 +1,41 @@
-# React + Vite
+# Mentor IA — GS 2025.2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Tema:** Soluções Disruptivas de IA para o Futuro do Trabalho  
+**Disciplina:** Front End & Mobile Development (2TIAPR)  
+**Professor:** Hete Caetano
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Descrição do projeto
+**Mentor IA** é um Web App (React + Vite) que simula um orientador de carreira baseado em respostas pré-programadas.  
+O objetivo é demonstrar conceitos de interfaces conversacionais, persistência local e visualização de skills — tudo sem integrar uma IA real (requisito da disciplina).
 
-## React Compiler
+Funcionalidades principais:
+- Chat simulado **Mentor IA** com histórico salvo em `localStorage`.
+- CRUD de **Skills** (adicionar / remover) com persistência local.
+- **Dashboard** simples que mostra o “nível de preparo” baseado na quantidade de skills cadastradas.
+- Navegação entre as telas (Mentor IA / Skills / Dashboard).
+- Estrutura de código organizada e componentes reutilizáveis.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tecnologias
+- **React** (Vite)
+- **JavaScript (ES6+)**
+- CSS (arquivo global)
+- localStorage (persistência no navegador)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔧 Pré-requisitos
+- Node.js (v16+ recomendado)  
+- npm (v8+ recomendado)  
+- Navegador moderno (Chrome/Edge/Firefox)
+
+---
+
+## 📥 Instalação (local)
+1. Clone o repositório:
+```bash
+git clone https://github.com/Matheus-Baarbosa/mentor-ia-gs-2025.git
+cd mentor-ia-gs-2025
