@@ -34,8 +34,62 @@ Funcionalidades principais:
 
 ---
 
-## 📥 Instalação (local)
+##  Instalação (local)
 1. Clone o repositório:
-```bash
+```bash```
 git clone https://github.com/Matheus-Baarbosa/mentor-ia-gs-2025.git
 cd mentor-ia-gs-2025
+
+2. Instale dependências:
+
+npm install
+
+3. Rode em modo desenvolvimento:
+
+npm run dev
+
+4. Abra no navegador:
+
+Acesse http://localhost:5173/ (ou o endereço exibido no terminal).
+
+## Scripts úteis
+
+npm run dev      # inicia o servidor de desenvolvimento
+npm run build    # gera build para produção (pasta dist/)
+npm run preview  # pré-visualiza o build gerado localmente
+
+## Estrutura do projeto (resumida)
+
+src/
+ ├─ components/      # componentes reutilizáveis (Navbar, ui/Button, ui/Input, Card...)
+ ├─ hooks/           # hooks customizados (useLocalStorage)
+ ├─ pages/           # telas (MentorIA, Skills, Dashboard)
+ ├─ styles/          # CSS global / tema
+ ├─ utils/           # helpers (responses.js)
+ ├─ App.jsx
+ └─ main.jsx
+
+## Como usar (fluxo rápido)
+
+Chat — Mentor IA
+
+Vá para a aba Mentor IA.
+
+Digite uma pergunta (ex.: Quais carreiras estão em alta?) e clique Enviar.
+
+A resposta do mentor aparece e o histórico é salvo automaticamente.
+
+Skills (CRUD)
+
+Vá para Skills.
+
+Digite uma skill e clique Adicionar.
+
+A skill aparece na lista; remova com Remover.
+
+Dashboard
+
+Mostra o total de skills e uma barra de progresso que representa o "nível de preparo".
+
+
+
